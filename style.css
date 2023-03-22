@@ -1,0 +1,135 @@
+* {
+    display: flex;
+    flex-direction: column;
+}
+.headercontainer{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.headercontainer, .section1 {
+    background-color: #1F2937;
+    color: white;
+
+}
+.headercontainer, .headerlink{
+    background-color:#1F2937;
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    align-content: space-evenly;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.headerlink, .s1text {
+    font-size: 18px;
+    color: #e5e7eb;
+    
+}
+
+.section1{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    padding: 7%
+
+}
+
+.awesome {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.s1container1 {
+    background-color: #1F2937;
+    display:flex;
+    align-content: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    align-items: left;
+    align-content: left;
+}
+
+.button {
+    background-color: #3882f6;
+
+}
+.s1container2 {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    align-content: left;
+
+}
+
+.images li{
+    border: solid;
+    border-color: #1f2937;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.s2container1 {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.s2header{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    align-items: center;
+    align-content: center;
+}
+
+.section3{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color:#1f2937;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.section4 {
+    background-color: white
+}
+
+.s4container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #3882f6;
+    margin: 15%;
+    border: solid; 
+    border-color: #3882f6;
+    border-radius: 20px;
+    color: white;
+    align-items: center;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button2 {
+    background-color: #3882f6;
+}
+
+.footersection{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
